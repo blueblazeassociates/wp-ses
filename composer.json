@@ -1,0 +1,34 @@
+{
+  "name" : "blueblazeassociates/wp-ses",
+  "description" : "Uses Amazon Simple Email Service instead of local mail for all outgoing WP emails.",
+  "type" : "wordpress-plugin",
+  "homepage" : "http://wp-ses.com",
+  "license" : "GPL-2.0+",
+  "authors" : [{
+    "name" : "Sylvain Deaure",
+    "homepage" : "http://www.blog-expert.fr",
+    "role" : "Author/Creator"
+  }, {
+    "name" : "Ed Gifford",
+    "homepage" : "http://www.blueblazeassociates.com",
+    "role" : "Composer-fier",
+    "email" : "egifford@blueblazeassociates.com"
+    }
+  ],
+  "keywords" : [
+    "amazon",
+    "autoresponder",
+    "delivrability",
+    "email",
+    "mail",
+    "newsletter",
+    "service",
+    "SES",
+    "smtp",
+    "webservice",
+    "wp_mail"
+  ],
+  "replace": {
+    "wpackagist-plugin/wp-ses" : "0.3.60"
+  }
+}
